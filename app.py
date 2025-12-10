@@ -9,13 +9,10 @@ from time import time
 
 def averageCase(n, MIN_FRAME, case):
 
-    try:
         n = float(n)
-    except:
-        gr.Info("Array size must be a number.")
-        return None, None
-    
+
     if not n.is_integer(): #will throw an error if a decimal is put into array size, handling edge case
+        gr.Info("Please only use whole numbers in array size.")
         return None, None
     
     n = int(n)
@@ -66,4 +63,5 @@ with gr.Blocks() as sort:
 
 if __name__ == "__main__":
     sort.launch()
+
 
