@@ -8,7 +8,7 @@ I chose to use bubble sort for this assingment because it the only sorting algor
 ## Demo video/gif/screenshot of test
 
 As you can in the video there are no bugs or much room for unique input to mess up and where you can you are not able to input anyting but a number within the provided range. Except for decimals, as the slider is natually a float. So I naturally added a check to see if it is a whole number.
-![image alt](https://github.com/25lps/CISC_121_002_Project/blob/012ef540fd276ae98a153108385e5448663007b8/Test.mp4)
+![video](https://github.com/25lps/CISC_121_002_Project/blob/012ef540fd276ae98a153108385e5448663007b8/Test.mp4)
 
 Another test I did but patched durring the devlopment was initally the radio buttons used to be 3 unique buttons, however they you could still start a new sort under a different time complexity if you pressed a different button. I could not find anything on gradio's docs to manage it.  So I used another feature radio buttons, wich solved my problem wholy, but I also think look a little better. 
 
@@ -83,4 +83,5 @@ https://stackoverflow.com/questions/32908639/open-pil-image-from-byte-file
 https://matplotlib.org/stable/
 
 https://www.geeksforgeeks.org/python/how-to-save-a-plot-to-a-file-using-matplotlib/
+
 
